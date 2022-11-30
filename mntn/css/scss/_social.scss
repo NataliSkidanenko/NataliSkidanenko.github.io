@@ -1,0 +1,19 @@
+.social {
+    position: fixed;
+    left: (100% - (1760 / 1920) * 100%) / 2;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    transform: translate(-47%, 0);
+    z-index: 900;
+    
+    &__container {
+        display: flex;
+        transform: rotate(90deg);
+
+        > * {
+            margin: 0 12px;
+        }
+    }
+    
+}

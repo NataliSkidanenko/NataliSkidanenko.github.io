@@ -1,0 +1,27 @@
+.scroll-pagination {
+    position: fixed;
+    right: (100% - (1760 / 1920) * 100%) / 2;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    z-index: 950;
+
+    .scroll-pagination__link {
+        display: inline-block;
+        text-align: right;
+        width: 100%;
+        padding: 22px 30px 22px 0px;
+        border-right: 3px solid rgba($text-color, $alpha: 0.5);
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+            border-right: 3px solid rgba($accent-color, $alpha: 0.5);
+        }
+
+        &.active {
+            border-color: $text-color;
+        }
+    }
+
+
+}

@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 200px 0;
+
+    &__container {
+        display: flex;
+    }
+
+    &__block {
+        width: 20%;
+
+        &--big {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 60%;
+        }
+    }
+
+    &__title {
+        margin-bottom: 24px;
+        font-size: 1.3rem;
+        color: $accent-color;
+    }
+
+    &__menu {
+        li {
+            margin-bottom: 16px;
+
+            a {
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__copyright {
+        font-weight: 500;
+        color: rgba($text-color, $alpha: 0.5);
+    }
+
+    &__info {
+        p {
+            width: 50%;
+            margin-top: 24px;
+        }
+    }
+}

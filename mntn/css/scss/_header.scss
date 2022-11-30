@@ -1,0 +1,52 @@
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 145px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    &--fixed {
+        position: fixed;
+        min-height: 70px;
+        background-color: rgba($main-color, $alpha: 0.4);
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: toPercent(1760, 1920);
+    }
+}
+
+.menu {
+    &__list {
+        display: flex;
+        li {
+            margin: 0 40px;
+        }
+    }
+
+    &__link {
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            @media (min-width: 1200px) {
+                color: $accent-color;
+            }
+        }
+    }
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    font-size: 0.91rem;
+    background: none;
+
+    &__img {
+        margin: 0 8px 0 0;
+    }
+}

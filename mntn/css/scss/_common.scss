@@ -1,0 +1,45 @@
+* {
+    font-family: $main-font;
+    font-weight: 600;
+}
+
+html{
+    font-size: 18px;
+    scroll-behavior: smooth;
+    
+    @media (max-width: 1440px) {
+        font-size: 16px;
+    }
+}
+
+body {
+    position: relative;
+    font-size: 1rem;
+    color: $text-color;
+    background-color: $main-color;
+}
+
+a {
+    color: $text-color;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+button {
+    color: $text-color;
+}
+
+.container {
+    width: toPercent(1462, 1920);
+}
+
+.scroll-container {
+    scroll-behavior: smooth;
+}
