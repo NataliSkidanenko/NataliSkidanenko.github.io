@@ -24,10 +24,28 @@
                 </ul>
             </nav>
             <div class="header__actions actions">
-                <button class="actions__item action">
-                    <img src="./img/header/account.svg" alt="Account icon" class="action__img">
-                    <span class="action__text">Account</span>
+                <button class="actions__item account">
+                    <img src="./img/header/account.svg" alt="Account icon" class="account__img">
+                    <span class="account__text">Account</span>
                 </button>
+                <button class="action__item menu-button" id="menu-open">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="header__modal-block modal-block">
+                <button class="modal-block__close" id="menu-close">
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="modal-menu">
+                    <ul class="modal-menu__list">
+                        <li><a href="#" class="modal-menu__link">Equipment</a></li>
+                        <li><a href="#" class="modal-menu__link">About us</a></li>
+                        <li><a href="#" class="modal-menu__link">Blog</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -95,6 +113,7 @@
                             What level of  hiker are you?
                         </h2>
                         <div class="article__text">
+                            <div class="article__blind"></div>
                             <p>
                                 Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? 
                             </p>
@@ -107,13 +126,15 @@
                 </div>
                 <div class="article__block article__block--img">
                     <div class="article__img">
-                        <img src="./img/articles/01.png" alt="Article image" class="article__img">
+                        <img src="./img/articles/01.png" alt="Article image">
                     </div>
                 </div>
             </section>
             <section class="articles__item article" id="section-2">
                 <div class="article__block article__block--img">
-                    <img src="./img/articles/02.png" alt="Article image" class="article__img">
+                    <div class="article__img">
+                        <img src="./img/articles/02.png" alt="Article image">
+                    </div>
                 </div>
                 <div class="article__block article__block--text2">
                     <div class="article__wrapper">
@@ -125,6 +146,7 @@
                             Picking the right Hiking Gear!
                         </h2>
                         <div class="article__text">
+                            <div class="article__blind"></div>
                             <p>
                                 The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet. 
                             </p>
@@ -147,6 +169,7 @@
                             Understand Your Map & Timing
                         </h2>
                         <div class="article__text">
+                            <div class="article__blind"></div>
                             <p>
                                 To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction. 
                             </p>
@@ -159,7 +182,7 @@
                 </div>
                 <div class="article__block article__block--img">
                     <div class="article__img">
-                        <img src="./img/articles/03.png" alt="Article image" class="article__img">
+                        <img src="./img/articles/03.png" alt="Article image">
                     </div>
                 </div>
             </section>
@@ -241,6 +264,7 @@
     </footer>
 
     <script src="./js/header.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/scroll-pagination.js"></script>
     <script src="./js/parallax.js"></script>
 </body>

@@ -1,2 +1,2 @@
 # MNTN
-Landing Page
+Look here -> https://nataliskidanenko.github.io/mntn/index.html

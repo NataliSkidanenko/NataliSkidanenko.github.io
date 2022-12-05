@@ -1,4 +1,4 @@
-(function () {
+{
     const allLinks = document.querySelectorAll('.scroll-pagination__list a');
     setInterval(function () {
         allLinks.forEach((menuLink) => {
@@ -11,4 +11,4 @@
             currentLink.classList.add('active');
         }
     }, 50);
-})();
+}
