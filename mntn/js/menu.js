@@ -2,6 +2,10 @@
     const modalMenu = document.querySelector('.modal-block');
     const buttonOpenMenu = document.querySelector('#menu-open');
     const buttonCloseMenu = document.querySelector('#menu-close');
+    const test = document.querySelector('h1');
+    test.addEventListener('click', () => {
+        document.body.style.background = 'red';
+    });
     buttonOpenMenu.addEventListener('click', openMenu);
     buttonOpenMenu.addEventListener('touchstart', openMenu);
     buttonCloseMenu.addEventListener('click', closeMenu);
