@@ -3,7 +3,9 @@
     const buttonOpenMenu = document.querySelector('#menu-open');
     const buttonCloseMenu = document.querySelector('#menu-close');
     buttonOpenMenu.addEventListener('click', openMenu);
+    buttonOpenMenu.addEventListener('touchend', openMenu);
     buttonCloseMenu.addEventListener('click', closeMenu);
+    buttonCloseMenu.addEventListener('touchend', closeMenu);
 
     function openMenu() {
         modalMenu.classList.add('animation-in');
