@@ -101,10 +101,14 @@
 
         &--1 {
             background: url(../img/hero/sky.jpg) no-repeat;
-            background-size: auto 150%;
+            background-size: 110% auto;
             background-attachment: fixed;
             background-position: left 50% top 50%;
             z-index: 1;
+
+            @media screen and (max-width: 640px) {
+                background-size: cover;
+            }
         }
 
         &--2 {
