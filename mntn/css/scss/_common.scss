@@ -13,7 +13,7 @@ html{
     font-size: 18px;
     scroll-behavior: smooth;
     
-    @media (max-width: 1440px) {
+    @media screen and (max-width: 1440px) {
         font-size: 16px;
     }
 }
@@ -29,7 +29,7 @@ a {
     color: $text-color;
     transition: all 0.3s ease-in-out;
 
-    @media (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
         &:hover {
             color: $accent-color;
         }
@@ -49,11 +49,11 @@ button {
 .container {
     width: toPercent(1462, 1920);
 
-    @media (max-width: 640px) {
+    @media screen and (max-width: 640px) {
         width: 80%;
     }
     
-    @media (max-width: 375px) {
+    @media screen and (max-width: 375px) {
         width: 92%;
     }
 }

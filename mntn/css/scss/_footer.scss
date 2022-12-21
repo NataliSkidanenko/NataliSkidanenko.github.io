@@ -6,7 +6,7 @@
     &__container {
         display: flex;
 
-        @media (max-width:640px) {
+        @media screen and (max-width:640px) {
             flex-direction: column;
         }
     }
@@ -21,7 +21,7 @@
             width: 60%;
         }
 
-        @media (max-width:640px) {
+        @media screen and (max-width:640px) {
             width: 100%;
             margin-top: 32px;
         }
@@ -53,13 +53,13 @@
             width: 50%;
             margin-top: 24px;
 
-            @media (max-width: 640px) {
+            @media screen and (max-width: 640px) {
                 width: 100%;
             }
         }
     }
 
-    @media (max-width: 480px) {
+    @media screen and (max-width: 480px) {
         padding: 50px 0;
     }
 }

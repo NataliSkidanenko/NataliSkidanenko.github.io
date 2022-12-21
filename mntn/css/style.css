@@ -101,7 +101,7 @@ html {
   font-size: 18px;
   scroll-behavior: smooth;
 }
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   html {
     font-size: 16px;
   }
@@ -118,7 +118,7 @@ a {
   color: #FFFFFF;
   transition: all 0.3s ease-in-out;
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   a:hover {
     color: #FBD784;
   }
@@ -136,12 +136,12 @@ button {
 .container {
   width: 76.1458333333%;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .container {
     width: 80%;
   }
 }
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .container {
     width: 92%;
   }
@@ -161,7 +161,7 @@ button {
   left: 0;
   z-index: 1000;
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .header {
     min-height: 85px;
   }
@@ -192,7 +192,7 @@ button {
 .menu__list li {
   margin: 0 40px;
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .menu {
     display: none;
   }
@@ -200,7 +200,7 @@ button {
 .menu__link {
   transition: all 0.3s ease-in-out;
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .menu__link:hover {
     color: #FBD784;
   }
@@ -228,7 +228,7 @@ button {
   margin: 6px 0;
   background-color: #FFFFFF;
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .menu-button {
     display: block;
   }
@@ -337,7 +337,7 @@ button {
 .social__container > * {
   margin: 0 12px;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .social {
     display: none;
   }
@@ -365,7 +365,7 @@ button {
 .scroll-pagination__link.active {
   border-color: #FFFFFF;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .scroll-pagination {
     display: none;
   }
@@ -384,12 +384,12 @@ button {
   align-items: center;
   z-index: 10;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .hero__container {
     height: 60%;
   }
 }
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .hero__container {
     height: 65%;
   }
@@ -397,12 +397,12 @@ button {
 .hero__content {
   width: 49.4791666667%;
 }
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .hero__content {
     width: 52%;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .hero__content {
     width: 70%;
   }
@@ -415,18 +415,18 @@ button {
   text-transform: capitalize;
   line-height: 5.55rem;
 }
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .main__title {
     font-size: 4.4rem;
   }
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .main__title {
     font-size: 2.8rem;
     line-height: 3.7rem;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .main__title {
     font-size: 2.2rem;
     line-height: 3.1rem;
@@ -447,7 +447,7 @@ button {
   margin: 0 32px 0 0;
   background-color: #FBD784;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .main__subtitle .line, .article__subtitle .line {
     width: 42px;
     margin-right: 15px;
@@ -522,19 +522,19 @@ button {
   font-weight: 700;
   opacity: 0.1;
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .article__block::before {
     top: -20%;
     left: -3%;
     font-size: 10rem;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .article__block::before {
     top: -15%;
   }
 }
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .article__block::before {
     left: -1%;
     font-size: 7rem;
@@ -549,7 +549,7 @@ button {
 .article__block--text3::before {
   content: "03";
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .article__block {
     width: 70%;
   }
@@ -559,7 +559,7 @@ button {
     width: 70%;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .article__block {
     width: 90%;
   }
@@ -567,7 +567,7 @@ button {
 .article__wrapper {
   width: 85%;
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .article__wrapper {
     width: 100%;
   }
@@ -575,7 +575,7 @@ button {
 .article__img img {
   width: 100%;
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .article__img {
     max-height: 38vh;
     display: flex;
@@ -584,7 +584,7 @@ button {
     overflow: hidden;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .article__img {
     max-height: 25vh;
   }
@@ -595,19 +595,19 @@ button {
   font-size: 3.56rem;
   line-height: 4.3rem;
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .article__title {
     font-size: 3rem;
     line-height: 3.9rem;
   }
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .article__title {
     font-size: 2.6rem;
     line-height: 3.5rem;
   }
 }
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .article__title {
     font-size: 1.5rem;
     line-height: 2.2rem;
@@ -622,13 +622,13 @@ button {
   position: relative;
   line-height: 1.8rem;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .article__text {
     max-height: 15vh;
     overflow: hidden;
   }
 }
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .article {
     flex-direction: column;
     justify-content: flex-start;
@@ -651,7 +651,7 @@ button {
 .footer__container {
   display: flex;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .footer__container {
     flex-direction: column;
   }
@@ -665,7 +665,7 @@ button {
   justify-content: space-between;
   width: 60%;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .footer__block {
     width: 100%;
     margin-top: 32px;
@@ -690,12 +690,12 @@ button {
   width: 50%;
   margin-top: 24px;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .footer__info p {
     width: 100%;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .footer {
     padding: 50px 0;
   }
