@@ -44,19 +44,19 @@
 
         &--text1 {
             &::before {
-                content: "01";
+                content: '01';
             }
         }
-        
+
         &--text2 {
             &::before {
-                content: "02";
+                content: '02';
             }
         }
 
         &--text3 {
             &::before {
-                content: "03";
+                content: '03';
             }
         }
 
@@ -78,7 +78,7 @@
     &__wrapper {
         width: 85%;
 
-        @media screen and (max-width:960px) {
+        @media screen and (max-width: 960px) {
             width: 100%;
         }
     }
@@ -121,7 +121,7 @@
             line-height: 2.2rem;
         }
     }
-    
+
     &__subtitle {
         @extend .main__subtitle;
     }
@@ -136,7 +136,7 @@
         position: relative;
         line-height: 1.8rem;
 
-        @media screen and (max-width:640px) {
+        @media screen and (max-width: 640px) {
             max-height: 15vh;
             overflow: hidden;
         }
@@ -152,7 +152,7 @@
             bottom: -2px;
             width: 100%;
             height: 100%;
-            background: linear-gradient(180deg, rgba(20, 31, 37, 0) 0%, #141F25 90%);
+            background: linear-gradient(180deg, rgba(20, 31, 37, 0) 0%, #141f25 90%);
         }
     }
 }

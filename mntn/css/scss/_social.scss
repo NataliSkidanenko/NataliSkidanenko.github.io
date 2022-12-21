@@ -6,7 +6,7 @@
     align-items: center;
     transform: translate(-47%, 0);
     z-index: 900;
-    
+
     &__container {
         display: flex;
         transform: rotate(90deg);
@@ -15,7 +15,7 @@
             margin: 0 12px;
         }
     }
-    
+
     @media screen and (max-width: 480px) {
         display: none;
     }

@@ -9,10 +9,10 @@
     font-weight: 600;
 }
 
-html{
+html {
     font-size: 18px;
     scroll-behavior: smooth;
-    
+
     @media screen and (max-width: 1440px) {
         font-size: 16px;
     }
@@ -34,7 +34,6 @@ a {
             color: $accent-color;
         }
     }
-        
 }
 
 p {
@@ -52,7 +51,7 @@ button {
     @media screen and (max-width: 640px) {
         width: 80%;
     }
-    
+
     @media screen and (max-width: 375px) {
         width: 92%;
     }

@@ -1,26 +1,39 @@
 * {
-    padding: 0;margin: 0;border: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
-*,*:before,*:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
-:focus,:active {
+:focus,
+:active {
     outline: none;
 }
 
-a:focus,a:active {
+a:focus,
+a:active {
     outline: none;
 }
 
-nav,footer,header,aside{display: block;}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
 
 body {
     line-height: 1;
 }
-input,button,textarea {
-    font-family:inherit;
+input,
+button,
+textarea {
+    font-family: inherit;
 }
 
 input::-ms-clear {
@@ -32,10 +45,12 @@ button {
 }
 
 button::-moz-focus-inner {
-    padding:0;border:0;
+    padding: 0;
+    border: 0;
 }
 
-a,a:visited {
+a,
+a:visited {
     text-decoration: none;
 }
 
@@ -51,7 +66,12 @@ img {
     vertical-align: top;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-size:inherit;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
     font-weight: inherit;
 }
