@@ -3,10 +3,10 @@
     const buttonOpenMenu = document.querySelector('#menu-open');
     const buttonCloseMenu = document.querySelector('#menu-close');
 
-    buttonOpenMenu.addEventListener('click', openMenu);
-    buttonCloseMenu.addEventListener('click', closeMenu);
-    // buttonOpenMenu.addEventListener('touchstart', openMenu);
-    // buttonCloseMenu.addEventListener('touchstart', closeMenu);
+    // buttonOpenMenu.addEventListener('click', openMenu);
+    // buttonCloseMenu.addEventListener('click', closeMenu);
+    buttonOpenMenu.addEventListener('touchstart', openMenu);
+    buttonCloseMenu.addEventListener('touchstart', closeMenu);
 
     function openMenu() {
         // e.preventDefault();
