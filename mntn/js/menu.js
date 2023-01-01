@@ -5,16 +5,19 @@
 
     buttonOpenMenu.addEventListener('click', openMenu);
     buttonCloseMenu.addEventListener('click', closeMenu);
+    buttonOpenMenu.addEventListener('touchend', openMenu);
+    buttonCloseMenu.addEventListener('touchend', closeMenu);
 
     function openMenu(e) {
-        e.preventDefault();
+        // e.preventDefault();
         modalMenu.classList.add('animation-in');
         modalMenu.style.display = 'flex';
         document.body.style.overflow = 'hidden';
+        return false;
     }
 
     function closeMenu(e) {
-        e.preventDefault();
+        // e.preventDefault();
         modalMenu.classList.remove('animation-in');
         modalMenu.classList.add('animation-out');
 
@@ -23,5 +26,6 @@
             modalMenu.style.display = 'none';
             document.body.style.overflow = 'auto';
         }, 500);
+        return false;
     }
 }
