@@ -11,7 +11,7 @@ function startWeatherApp() {
 
 async function getLocalWeather({coords: {latitude, longitude}}) {
     const data = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${API_KEY}`
+        `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${API_KEY}`
     ).then((response) => response.json());
     removeLoader();
     showWeather(data);
@@ -20,7 +20,7 @@ async function getLocalWeather({coords: {latitude, longitude}}) {
 async function getRandomWeather() {
     showLoader();
     const data = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?lat=${getRandomLatitude()}&lon=${getRandomLongitude()}&units=metric&appid=${API_KEY}`
+        `https://api.openweathermap.org/data/2.5/weather?lat=${getRandomLatitude()}&lon=${getRandomLongitude()}&units=metric&appid=${API_KEY}`
     ).then((response) => response.json());
     if (!data.name) {
         getRandomWeather();
@@ -39,7 +39,7 @@ async function getCityWeather(e) {
         showLoader();
         try {
             const data = await fetch(
-                `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`
+                `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`
             ).then((response) => response.json());
             removeLoader();
             showWeather(data);
