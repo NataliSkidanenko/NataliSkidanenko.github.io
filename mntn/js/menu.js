@@ -5,10 +5,10 @@
 
     buttonOpenMenu.addEventListener('click', openMenu);
     buttonCloseMenu.addEventListener('click', closeMenu);
-    buttonOpenMenu.addEventListener('touchend', openMenu);
-    buttonCloseMenu.addEventListener('touchend', closeMenu);
+    buttonOpenMenu.addEventListener('touchstart', openMenu);
+    buttonCloseMenu.addEventListener('touchstart', closeMenu);
 
-    function openMenu(e) {
+    function openMenu() {
         // e.preventDefault();
         modalMenu.classList.add('animation-in');
         modalMenu.style.display = 'flex';
@@ -16,7 +16,7 @@
         return false;
     }
 
-    function closeMenu(e) {
+    function closeMenu() {
         // e.preventDefault();
         modalMenu.classList.remove('animation-in');
         modalMenu.classList.add('animation-out');

@@ -425,6 +425,7 @@ button {
 
 .main__title {
   margin-bottom: 32px;
+  color: red;
   font-family: "Chronicle";
   font-size: 4.889rem;
   text-transform: capitalize;
@@ -491,12 +492,13 @@ button {
   background: url(../img/hero/sky.jpg) no-repeat;
   background-size: 110% auto;
   background-attachment: fixed;
-  background-position: left 50% top 50%;
+  background-position: left 50% top -2%;
   z-index: 1;
 }
 @media screen and (max-width: 640px) {
   .parallax__bg--1 {
-    background-size: cover;
+    background-size: 100%;
+    background-position: top center;
   }
 }
 .parallax__bg--2 {
@@ -592,6 +594,10 @@ button {
     width: 100%;
   }
 }
+.article__img {
+  max-height: 80vh;
+  overflow: hidden;
+}
 .article__img img {
   width: 100%;
 }
@@ -601,7 +607,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
   }
 }
 @media screen and (max-width: 480px) {

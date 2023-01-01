@@ -84,6 +84,9 @@
     }
 
     &__img {
+        max-height: 80vh;
+        overflow: hidden;
+
         img {
             width: 100%;
         }
@@ -92,7 +95,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
         }
 
         @media screen and (max-width: 480px) {
