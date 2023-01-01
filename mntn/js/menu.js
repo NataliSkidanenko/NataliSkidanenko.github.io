@@ -5,8 +5,8 @@
 
     buttonOpenMenu.addEventListener('click', openMenu);
     buttonCloseMenu.addEventListener('click', closeMenu);
-    buttonOpenMenu.addEventListener('touchstart', openMenu);
-    buttonCloseMenu.addEventListener('touchstart', closeMenu);
+    // buttonOpenMenu.addEventListener('touchstart', openMenu);
+    // buttonCloseMenu.addEventListener('touchstart', closeMenu);
 
     function openMenu() {
         // e.preventDefault();

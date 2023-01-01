@@ -36,7 +36,7 @@
 .main {
     &__title {
         margin-bottom: 32px;
-        color: red;
+        color: royalblue;
         font-family: $accent-font;
         font-size: 4.889rem;
         text-transform: capitalize;
@@ -108,7 +108,7 @@
             z-index: 1;
 
             @media screen and (max-width: 640px) {
-                background-size: 100%;
+                background-size: auto 100%;
                 background-position: top center;
             }
         }

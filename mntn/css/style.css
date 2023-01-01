@@ -235,6 +235,7 @@ button {
   display: none;
   width: 30px;
   margin-left: 32px;
+  cursor: pointer;
 }
 .menu-button span {
   display: block;
@@ -425,7 +426,7 @@ button {
 
 .main__title {
   margin-bottom: 32px;
-  color: red;
+  color: royalblue;
   font-family: "Chronicle";
   font-size: 4.889rem;
   text-transform: capitalize;
@@ -497,7 +498,7 @@ button {
 }
 @media screen and (max-width: 640px) {
   .parallax__bg--1 {
-    background-size: 100%;
+    background-size: auto 100%;
     background-position: top center;
   }
 }
