@@ -214,6 +214,7 @@ body {
     }
 
     .weather-form input {
+        width: 100%;
         font-size: 2rem;
         text-align: center;
     }
